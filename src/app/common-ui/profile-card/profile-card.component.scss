@@ -12,9 +12,35 @@
   grid-gap: 20px;
 }
 
-.profile-card-avatar {
+.profile-card__avatar {
   width: 70px;
   height: 70px;
   border-radius: 50%;
   overflow: hidden;
+}
+
+.profile-card__name {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.profile-card__description {
+  font-display: swap;
+  font-style: normal;
+  font-weight: 500;
+  font-family: "JetBrains Mono";
+}
+
+.h6 {
+  font-display: swap;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 800;
+}
+
+.subtitle {
+  font-size: 14px;
+  line-height: 20px;
 }
